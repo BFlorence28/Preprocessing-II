@@ -6,16 +6,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+    .welcome {
+      border-bottom:dashed @navigation-border;
+      padding: 2rem;
+    }
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+      padding-top: 2%;
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      padding-top: 2%;
 
       img {
         border-radius: 10px;
@@ -56,6 +61,11 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+    }
+
+    .btn {
+      .button-template(@button-bg;);
+
     }
   }
 }// home
